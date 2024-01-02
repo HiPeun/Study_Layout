@@ -23,3 +23,7 @@
     height: 460;
     background-color: aqua;
 }
+
+.mx-auto{
+    margin: 0 auto;
+}
