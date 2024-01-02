@@ -65,3 +65,23 @@ padding:0; /*(안) 여백 */
 margin: 1rem;      
 /* 마진 이라고 읽고 1rm 이라고 여백을 늘려주는거다. */
       }
+
+
+      .bg-gold{background-color: gold;
+
+
+
+      }
+
+      .bg-lime{
+        background-color: lime;
+      }
+
+      .box{
+        width: 100px;
+        height: 100px;
+      }
+
+      .display-inlineblock{
+        display:block;
+      }
