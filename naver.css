@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+
+#wrap{  
+    background-color: lime;
+  }
+
+
+#header{
+    width: 1280px;
+    height: 268px;
+    background-color: gray;
+}
+
+#container{
+    width: 1280px;
+    height: 2579px;
+    background-color: blanchedalmond;
+}
+
+#footer{
+    width: 1280;
+    height: 460;
+    background-color: aqua;
+}
