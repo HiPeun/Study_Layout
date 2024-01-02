@@ -1,0 +1,67 @@
+@charset "UTF-8";
+*{
+margin:0; /*(바깥) 여백 */
+padding:0; /*(안) 여백 */
+
+}
+ /* css 선택자: html 명령어를 선택해서 스타일을 정의하는 css 문법 
+
+   1. 전체 선택자 :*
+   2. 태그 선택자 p 또는 h1 과 같은 명령어 <p>.. </p>에서 p가 태그 선택자
+   3. 클래스 선택자 : .어떤 이름 (예: .my=photo or .art ...등등등)
+   4. 아이디 선택자 : #어떤 이름 (예: #very-important or #exciting ..등등)
+   5. 그룹   선택자 : , (콤마) 
+    ※ 5가지 외에 더 많이 있음 ==> 그래서 개발자가 어려워 함...
+   
+   
+   */
+
+
+/* 1.클래스 선택자 */
+   .title{
+     color: red;  /* 글자의 색상 변경 */
+     height: 15px;
+     background-color: rgb(124, 216, 53);
+     display: inline-block
+     
+     
+    
+       }
+
+      .first_p{
+        background-color: beige;
+        height: 15px;
+        display: inline-block
+        
+
+      }
+
+
+       .second_p{
+        background-color: coral;
+        height: 15px;
+       display: inline-block
+       
+       }
+
+
+       .word{
+       background-color: hotpink;
+       
+
+
+       }
+
+
+       .stroy{
+        background-color: khaki; 
+       }
+
+     
+      /* 2. 태그 선택자  */
+
+      div {
+        background-color: deepskyblue;
+margin: 1rem;      
+/* 마진 이라고 읽고 1rm 이라고 여백을 늘려주는거다. */
+      }
